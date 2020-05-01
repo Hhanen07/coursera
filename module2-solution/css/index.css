@@ -1,0 +1,77 @@
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 31%;
+        float : left;
+        margin:10px;
+        border : 1px solid black;
+        background-color: rgb(139, 137, 137);
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-2 {
+        width: 47%;
+        float : left;
+        margin:10px;
+        border : 1px solid black;
+        background-color: rgb(139, 137, 137);
+    }
+    .col-md-1{
+        width: 96.5%;
+        float : left;
+        margin:10px;
+        border : 1px solid black;
+        background-color: rgb(139, 137, 137);
+    }
+}
+@media (max-width: 767px) {
+    .col-s-1{
+        width: 96.5%;
+        float : left;
+        margin:10px;
+        border : 1px solid black;
+        background-color: rgb(139, 137, 137);
+    }
+}
+* { 
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+}
+.p1 {
+    float : right ;
+    clear : right;
+    background-color: palevioletred; 
+    width: 25%;
+    border : 1px solid black;
+    padding: 5px;
+    font-size: 1.25em;
+}
+.p2 {
+    float : right;
+    padding: 10px; 
+}
+.p3{
+    float : right ;
+    clear : right;
+    background-color:   rgb(145, 6, 6);
+    color: white; 
+    width: 25%;
+    border : 1px solid black;
+    padding: 5px;
+    font-size: 1.25em;
+}
+.p4 {
+    float : right ;
+    clear : right;
+    background-color: rgb(245, 245, 138); 
+    width: 25%;
+    border : 1px solid black;
+    padding: 5px;
+    font-size: 1.25em;
+}
+body {
+    font-size: 100%;
+}
