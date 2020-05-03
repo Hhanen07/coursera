@@ -24,6 +24,94 @@ body {
     width: 165px;
     height: 160px;
     margin: 10px 15px 10px 0;
-    left : 0;
+        
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    margin: 15px;
+}
+
+/**Restaurant name **/
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 15px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none ;   
+} 
+
+.navbar-brand p { /*Kosher cert*/
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span { /*star-k*/
+    vertical-align: middle;
+}
+
+/** xs **/
+@media (max-width : 575px){
+    .visible {
+        display: none ;
+    } 
+}
+/** sm **/
+@media (min-width : 576px) and (max-width : 767px) {
+    .visible {
+        display: none ;
+    }    
+}
+/** md **/
+@media (min-width : 768px) and (max-width : 991px) {
     
 }
+/** lg **/
+@media (min-width : 992px) and (max-width : 1199px) {
+    
+}
+/** xl **/
+@media (min-width : 1200px)  {
+    
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+#nav-list a span {
+    font-size: 1.8em;
+}
+#phone {
+    margin-top: 5px;
+}
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+#phone div {
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
