@@ -34,6 +34,8 @@
 }
 * { 
     box-sizing: border-box;
+    margin : 0;
+    padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
 }
 h1 {
@@ -41,9 +43,9 @@ h1 {
     font-size: 1.75em;
 }
 .p1 {
-    float : right ;
+    float : right;
     clear : right;
-    background-color: palevioletred; 
+    background-color: palevioletred;
     width: 25%;
     border : 1px solid black;
     padding: 5px;
@@ -51,7 +53,7 @@ h1 {
 }
 .p2 {
     float : right;
-    padding: 10px; 
+    padding: 15px ; 
 }
 .p3{
     float : right ;
@@ -65,7 +67,9 @@ h1 {
 }
 .p4 {
     float : right ;
-    clear : right;
+    position: relative;
+    top : 0px;
+    right : 0px; 
     background-color: rgb(245, 245, 138); 
     width: 25%;
     border : 1px solid black;
@@ -74,4 +78,7 @@ h1 {
 }
 body {
     font-size: 100%;
+}
+.container-fluid {
+    position : relative;
 }
